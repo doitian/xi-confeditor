@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="confeditor:main" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="2" platform="JVM 1.8" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../build/kotlin-classes/main" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/no.tornado/tornadofx/1.7.1/1b547eef959e9d7078ae866989809e4bd8c4864e/tornadofx-1.7.1.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.1.2/cd6d8b7a32971564fab0846009593f3bfabdcac1/kotlin-stdlib-jre8-1.1.2.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.jetbrains.ktor/ktor-jetty/0.3.2/6e60f3b3a4a14cab06c0e44b6aeafab8fd2479d6/ktor-jetty-0.3.2.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.jetbrains.ktor/ktor-websockets/0.3.2/8ae980166ce3324b39507fef363375123068712/ktor-websockets-0.3.2.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.4.5.v20170502/b4d30340213c3d2a5f908860ba170c5a697829be/jetty-server-9.4.5.v20170502.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/com.github.salomonbrys.kotson/kotson/2.5.0/40daf22108aa4436d46257e14cc48447cca542c3/kotson-2.5.0.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-simple/1.7.25/8dacf9514f0c707cbbcdd6fd699e8940d42fb54e/slf4j-simple-1.7.25.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/3.16/76e20fe22404cc4da55ddfdaaaadee32bbfa3bdd/poi-ooxml-3.16.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.glassfish/javax.json/1.0.4/3178f73569fd7a1e5ffc464e680f7a8cc784b85a/javax.json-1.0.4.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.1.1/e68cf130c2dbdd68a72f4a750cf442dffcd877ce/kotlin-reflect-1.1.1.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.jetbrains.ktor/ktor-hosts-common/0.3.2/47d66db29c79f89b4b2df4e51abd2d8a1523cb8e/ktor-hosts-common-0.3.2.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.jetbrains.ktor/ktor-servlet/0.3.2/1b0d66f3cdc45b760da26c2c00c4bcf88fcebbd9/ktor-servlet-0.3.2.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlets/9.4.1.v20170120/b9642dce65618f8679337f7ac6ffcbda1c087030/jetty-servlets-9.4.1.v20170120.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-alpn-server/9.4.1.v20170120/2ee3585d8e0802c8963ee1dcdd21e021f3c14cdd/jetty-alpn-server-9.4.1.v20170120.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.http2/http2-server/9.4.1.v20170120/6cd5f13e7e0d15458827f88bc336986c0eec210/http2-server-9.4.1.v20170120.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.jetbrains.ktor/ktor-core/0.3.2/1f10705c2353ab89d4f3dcf6cadad7d6a0e5d5eb/ktor-core-0.3.2.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-runtime/1.1.1/c65604aa7f90ce813f75baab82f91b88315e1179/kotlin-runtime-1.1.1.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.14/7cf86d32f4c72a42d7d317c763c33b035f08bad7/kotlinx-coroutines-core-0.14.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.16/ad21c123ee5d6b5b2a8f0d4ed23b3ffe6759a889/poi-3.16.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml-schemas/3.16/9828a49307fc6bebfd42185b677d88b6e4994c63/poi-ooxml-schemas-3.16.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/com.github.virtuald/curvesapi/1.04/3386abf821719bc89c7685f9eaafaf4a842f0199/curvesapi-1.04.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-continuation/9.4.1.v20170120/d1115a1132613652bda7859ce7025f2424d2b72/jetty-continuation-9.4.1.v20170120.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.http2/http2-common/9.4.1.v20170120/f58a881e4dd8debb80fdb7849a518d0985e88aa5/http2-common-9.4.1.v20170120.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-collections4/4.1/a4cf4688fe1c7e3a63aa636cc96d013af537768e/commons-collections4-4.1.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.apache.xmlbeans/xmlbeans/2.6.0/29e80d2dd51f9dcdef8f9ffaee0d4dc1c9bbfc87/xmlbeans-2.6.0.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.http2/http2-hpack/9.4.1.v20170120/9298351163b491c5e678ced89d4ab74b4ddaa2ec/http2-hpack-9.4.1.v20170120.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/stax/stax-api/1.0.1/49c100caf72d658aca8e58bd74a4ba90fa2b0d70/stax-api-1.0.1.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.1.2/8fe14858be2d85bb2c8ad1e060f6dafbd45f48f4/kotlin-stdlib-jre7-1.1.2.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.2/109c63008b2d569e38696a3178ee2493b0f6c776/kotlin-stdlib-1.1.2.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.4.5.v20170502/c51b8a6a67d64672889249dd958edd77bff8fc0c/jetty-http-9.4.5.v20170502.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.4.5.v20170502/76086f955d4e943396b8f340fd5bae3ce4da19d9/jetty-io-9.4.5.v20170502.jar:/Users/ian/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.4.5.v20170502/5fd36dfcf39110b809bd9b20cec62706ab694711/jetty-util-9.4.5.v20170502.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="confeditor_main" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="languageVersion" value="1.1" />
+          <option name="apiVersion" value="1.1" />
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="coroutinesWarn" value="true" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../build/classes/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: no.tornado:tornadofx:1.7.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre8:1.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.ktor:ktor-jetty:0.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.ktor:ktor-websockets:0.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-server:9.4.5.v20170502" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.salomonbrys.kotson:kotson:2.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-simple:1.7.25" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.poi:poi-ooxml:3.16" level="project" />
+    <orderEntry type="library" name="Gradle: org.glassfish:javax.json:1.0.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.ktor:ktor-hosts-common:0.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.ktor:ktor-servlet:0.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-servlets:9.4.1.v20170120" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-alpn-server:9.4.1.v20170120" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.http2:http2-server:9.4.1.v20170120" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.ktor:ktor-core:0.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-runtime:1.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:0.14" level="project" />
+    <orderEntry type="library" name="Gradle: com.typesafe:config:1.2.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.poi:poi:3.16" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.poi:poi-ooxml-schemas:3.16" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.virtuald:curvesapi:1.04" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-continuation:9.4.1.v20170120" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.http2:http2-common:9.4.1.v20170120" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-collections4:4.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.xmlbeans:xmlbeans:2.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.http2:http2-hpack:9.4.1.v20170120" level="project" />
+    <orderEntry type="library" name="Gradle: stax:stax-api:1.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-http:9.4.5.v20170502" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-io:9.4.5.v20170502" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-util:9.4.5.v20170502" level="project" />
+  </component>
+</module>

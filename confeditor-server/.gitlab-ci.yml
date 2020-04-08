@@ -1,0 +1,35 @@
+image: daocloud.io/doitian/java:build-deps-mirror-cn
+
+stages:
+  - package
+  - deploy
+
+package:
+  stage: package
+  script:
+    - gradle jar
+    - mv build/libs/confeditor.jar confeditor_${CI_BUILD_TAG:-pre}.jar
+  only:
+    - master
+    - tags
+  cache:
+    paths:
+      - /root/.gradle/caches/
+      - /root/.gradle/wrapper/
+  artifacts:
+    name: "confeditor_${CI_BUILD_TAG:-pre}"
+    paths:
+      - confeditor_${CI_BUILD_TAG:-pre}.jar
+
+upload_doc:
+  stage: deploy
+  tags: [ deploy ]
+  script:
+    - ssh assets@nas.3pjgames.com mkdir -p xi/confeditor/
+    - scp confeditor_${CI_BUILD_TAG:-pre}.jar assets@nas.3pjgames.com:xi/confeditor/
+  only:
+    - master
+    - tags
+  environment:
+    name: assets
+    url: https://svn.3pjgames.com/assets/xi/confeditor/

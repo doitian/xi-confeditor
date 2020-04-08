@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "amd",
+    "outFile": "./public/config.js"
+  },
+  "include": [
+    "config-src/*.ts"
+  ],
+  "files": [
+    "config-src/config.ts"
+  ]
+}
